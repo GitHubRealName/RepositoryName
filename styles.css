@@ -1,0 +1,255 @@
+/* popup/modal related */
+
+.popup_box {
+  background-color: white;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+.popup_box_answers {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+
+}
+
+.popup_box_answers button {
+  text-decoration: none;
+        font-size: large;
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.popup_text_conditions {
+  color: white;
+  font-family: EBGaramond,Times New Roman,serif;
+  text-align: center;
+
+}
+
+/* The Modal (background) */
+.modal {
+/*display: none;  Hidden by default*/
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+/*background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+background-color: #fefefe;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+}
+
+/* The Close Button */
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+
+/*homepage*/
+
+header {
+    position: float;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    /*background-color: black;
+    background-image: url(https://i.ytimg.com/vi/nqAsKmyyGBE/maxresdefault.jpg);*/
+    color: white;
+    text-align: center;
+    /*padding: 20px 20px;*/
+    border: 20px 20px;
+}
+
+.title_logo {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.title_logo_link {
+    text-decoration: none;
+    color: inherit;
+}
+.tagline {
+    text-align: center;
+    color: black;
+}
+
+label, input {
+    display: block;
+}
+
+.thanks_message {
+    text-align: center;
+    color: white;
+}
+
+input {
+    width: 100%;
+}
+
+html, body {
+    height:100%;
+}
+
+.subscription_path {
+    height:100%;
+    background-image: url(images/SugarCane1.jpg);
+    /*Field1-HP*/
+    background-size: cover;
+    resize: both;
+    overflow: scroll;
+    background-position: center bottom, left top;
+    background-repeat: no-repeat;
+    /*url(https://gallery.mailchimp.com/c7a35a7937bdf51e561ef8114/images/759360bc-e7e6-46ff-9909-f3afc8c73f34.jpg width:100%);
+    background: linear-gradient(to top, transparent, black);*/
+}
+
+input:focus:invalid {
+    border-left: 10px solid rgb(255, 174, 0);
+}
+input:focus:valid {
+    border-left: 10px solid greenyellow;
+}
+
+/* Signup form using MailChimp*/
+#mc_embed_signup {
+    width: 100%;
+}
+
+#mc_embed_signup form {
+    display:block;
+    position:relative;
+    margin:auto;
+    text-align:center;
+    max-width: 500px;
+    padding:10px 0 10px 0;
+}
+
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+#mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup input:focus {border-color:#333;}
+#mc_embed_signup .button {
+    clear:both;
+    background-color: #aaa;
+    border: 0 none;
+    border-radius:4px;
+    letter-spacing:.03em;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size:15px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 5px 10px 0;
+    padding:0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 90%;
+    transition: all 0.23s ease-in-out 0s;
+}
+#mc_embed_signup .button:hover {background-color:#777;}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}
+#mc_embed_signup .clear {clear:none; display:inline;}
+
+#mc_embed_signup label {
+    text-align: center;
+    display:block;
+    font-size:16px;
+    padding-bottom:10px;
+    font-weight:bold;
+    color: white;
+}
+#mc_embed_signup input.email {
+    /*font-family:"Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;*/
+    font-size: 15px;
+    display:block;
+    padding:0 0;
+    margin:0 4% 10px 0;
+    min-height:32px;
+    width:100%;
+    min-width:130px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#mc_embed_signup input.button {
+    font-size: 15px;
+    display:block;
+    padding:0 0.4em;
+    margin:0 4% 10px 0;
+    min-height:32px;
+    width:100%;
+    min-width:130px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: green;
+}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
+
+/*footer*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*padding: 20px 20px;
+    border: 20px 20px;*/
+}
+
+/* Media Queries */
+
+@media (max-width: 450px) {
+    mc_embed_signup {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 450px) {
+    mc_embed_signup {
+        width: 1em;
+        max-width: 500px;
+    }
+}
+
+/*legal_pages: cookie policy, terms and conditions, privacy policy */
+
+.legal_pages {
+  background-color: black;
+  color: white;
+}
