@@ -83,6 +83,21 @@ header {
     font-size: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+
+.title_logo_modal {
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.CTA1 {
+  text-align: center;
+  color: white;
+  font-size: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
 .title_logo_link {
     text-decoration: none;
     color: inherit;
@@ -90,6 +105,11 @@ header {
 .tagline {
     text-align: center;
     color: black;
+}
+
+.tagline_modal {
+    text-align: center;
+    color: white;
 }
 
 label, input {
